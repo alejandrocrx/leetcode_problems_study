@@ -19,3 +19,7 @@ Using dynamic programming, similar to the fibonacci sequence, we initialize an a
 ## 198. House Robber
 
 We traverse the array from right to left, keeping track of the maximum value. We use two pointers.
+
+## 17. Letter Combinations of a Phone Number
+
+We do depth-first search for every digit in the string. We recursively call dfs for every index + 1 and when the base case is reached, we delete the character of the last at stringbuilder.
