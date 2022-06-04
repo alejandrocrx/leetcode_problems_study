@@ -1,4 +1,4 @@
-# LeetCode Problems I Have Solved in Java
+# LeetCode Problems in Java
 
 ## 62. Unique Paths
 
