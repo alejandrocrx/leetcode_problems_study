@@ -15,3 +15,7 @@ Using kadane's algorithm O(n), time O(1) space, we keep track of the maximum pro
 ## 70. Climbing Stairs
 
 Using dynamic programming, similar to the fibonacci sequence, we initialize an array of size n+1 with base cases dp[0] = 1 and dp[1] = 1.
+
+## 198. House Robber
+
+We traverse the array from right to left, keeping track of the maximum value. We use two pointers.
