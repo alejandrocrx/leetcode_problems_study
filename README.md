@@ -23,3 +23,7 @@ We traverse the array from right to left, keeping track of the maximum value. We
 ## 17. Letter Combinations of a Phone Number
 
 We do depth-first search for every digit in the string. We recursively call dfs for every index + 1 and when the base case is reached, we delete the character of the last at stringbuilder.
+
+## 200. Number of Islands
+
+We do depth-first search for each '1' that we find, we go up, down, left and right looking for more 1's. When we find a 1, we set it equal to '0' to mark it as found.
