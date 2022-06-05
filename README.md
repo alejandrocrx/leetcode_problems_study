@@ -1,14 +1,18 @@
 # Arrays (Sliding Window, Kadane's Algorithm)
 
-### 75. Sort Colors *
+### 739. Daily Temperatures
+
+Traversing array from the left using Stack.
+
+### 75. Sort Colors \*
 
 Arrays using two pointers.
 
-### 3. Longest Substring Without Repeating Characters *
+### 3. Longest Substring Without Repeating Characters \*
 
 Sliding Window using HashSet to store characters.
 
-### 209. Minimum Size Subarray Sum *
+### 209. Minimum Size Subarray Sum \*
 
 Sliding Window.
 
@@ -39,4 +43,3 @@ Using dynamic programming, we initialize a 2d array and fill the array with its 
 ### 70. Climbing Stairs
 
 Using dynamic programming, similar to the fibonacci sequence, we initialize an array of size n+1 with base cases dp[0] = 1 and dp[1] = 1.
-
