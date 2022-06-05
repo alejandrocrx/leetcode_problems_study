@@ -1,24 +1,18 @@
-# LeetCode Problems in Java
+# Arrays (Sliding Window, Kadane's Algorithm)
 
-## 62. Unique Paths
+## 209. Minimum Size Subarray Sum
 
-Using dynamic programming, we initialize a 2d array and fill the array with its base cases.
-
-## 46. Permutations
-
-Using depth-first search, we add each combination and at the end, we remove the last item in the list.
+Sliding Window
 
 ## 152. Maximum Product Subarray
 
 Using kadane's algorithm O(n), time O(1) space, we keep track of the maximum product subarray and we traverse the array from left to right and right to left.
 
-## 70. Climbing Stairs
+# DFS
 
-Using dynamic programming, similar to the fibonacci sequence, we initialize an array of size n+1 with base cases dp[0] = 1 and dp[1] = 1.
+## 46. Permutations
 
-## 198. House Robber
-
-We traverse the array from right to left, keeping track of the maximum value. We use two pointers.
+Using depth-first search, we add each combination and at the end, we remove the last item in the list.
 
 ## 17. Letter Combinations of a Phone Number
 
@@ -27,3 +21,14 @@ We do depth-first search for every digit in the string. We recursively call dfs 
 ## 200. Number of Islands
 
 We do depth-first search for each '1' that we find, we go up, down, left and right looking for more 1's. When we find a 1, we set it equal to '0' to mark it as found.
+
+# Dynamic Programming
+
+## 62. Unique Paths
+
+Using dynamic programming, we initialize a 2d array and fill the array with its base cases.
+
+## 70. Climbing Stairs
+
+Using dynamic programming, similar to the fibonacci sequence, we initialize an array of size n+1 with base cases dp[0] = 1 and dp[1] = 1.
+
