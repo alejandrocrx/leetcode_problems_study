@@ -29,6 +29,7 @@ public class SortColors {
         int index = 0;
 
         while (index <= p2) {
+            // if current is 0, swap with p1 pointer, increment p1
             if (nums[index] == 0) {
                 nums[index] = nums[p1];
                 nums[p1] = 0;
@@ -36,12 +37,15 @@ public class SortColors {
             }
 
             if (nums[index] == 2) {
+                // if current is 2, swap with p2 pointer, decrement p2
                 nums[index] = nums[p2];
                 nums[p2] = 2;
                 p2--;
+                // may have swapped an extra 0 from the end of array that requires extra
+                // processing, so decrement index to account for it
                 index--;
             }
-
+            // move to next index to make progress
             index++;
         }
     }
