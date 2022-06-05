@@ -1,5 +1,9 @@
 # Arrays (Sliding Window, Kadane's Algorithm)
 
+### 75. Sort Colors *
+
+Arrays using two pointers.
+
 ### 3. Longest Substring Without Repeating Characters *
 
 Sliding Window using HashSet to store characters.
