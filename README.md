@@ -1,4 +1,4 @@
-# Arrays (Sliding Window, Kadane's Algorithm)
+# Arrays (Sliding Window, Kadane's Algorithm, Two-pointers)
 
 ### 739. Daily Temperatures
 
