@@ -1,8 +1,12 @@
 # Arrays (Sliding Window, Kadane's Algorithm)
 
-### 209. Minimum Size Subarray Sum
+### 3. Longest Substring Without Repeating Characters *
 
-Sliding Window
+Sliding Window using HashSet to store characters.
+
+### 209. Minimum Size Subarray Sum *
+
+Sliding Window.
 
 ### 152. Maximum Product Subarray
 
