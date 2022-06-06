@@ -14,7 +14,7 @@ Arrays using two pointers.
 
 ### 238. Product of Array Except Self
 
-Arrays prefix product array and suffix product array.
+Similar to Kadane's algorithm, arrays prefix product array and suffix product array.
 
 ### 3. Longest Substring Without Repeating Characters \*
 
