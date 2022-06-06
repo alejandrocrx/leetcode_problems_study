@@ -8,6 +8,10 @@ Traversing array from the left using Stack.
 
 Arrays using two pointers.
 
+### 88. Merge Sorted Array
+
+Arrays using two pointers.
+
 ### 3. Longest Substring Without Repeating Characters \*
 
 Sliding Window using HashSet to store characters.
