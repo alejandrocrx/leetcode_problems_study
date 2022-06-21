@@ -11,6 +11,20 @@ public class NumberOfIslands {
          * Input: grid = [ ["1","1","1","1","0"], ["1","1","0","1","0"],
          * ["1","1","0","0","0"], ["0","0","0","0","0"] ] Output: 1
          */
+
+        char[][] grid = { { '1', '1', '0', '0', '0' }, { '1', '1', '0', '0', '0' }, { '0', '0', '1', '0', '0' },
+                { '0', '0', '0', '1', '1' } };
+
+        numIslands(grid);
+
+        System.out.println("final result");
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 0; j < grid[0].length; j++) {
+                System.out.print(grid[i][j]);
+            }
+            System.out.println("");
+        }
+
     }
 
     public static int numIslands(char[][] grid) {
@@ -33,6 +47,13 @@ public class NumberOfIslands {
         if (j < 0 || i < 0 || j >= grid[0].length || i >= grid.length || grid[i][j] == '0') {
             return;
         }
+        for (int x = 0; x < grid.length; x++) {
+            for (int y = 0; y < grid[0].length; y++) {
+                System.out.print(grid[x][y]);
+            }
+            System.out.println("");
+        }
+        System.out.println("\n");
 
         grid[i][j] = '0';
         dfs(grid, i + 1, j);
