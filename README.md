@@ -30,6 +30,10 @@ Using kadane's algorithm O(n), time O(1) space, we keep track of the maximum pro
 
 # DFS
 
+### 130. Surrounded Regions
+
+Using depth-first search, we go through first and last column and also first and last row to check for O's and change them for _'s. After that, we go through each cell in the 2D array and check if there is an O or an _.
+
 ### 46. Permutations
 
 Using depth-first search, we add each combination and at the end, we remove the last item in the list.
