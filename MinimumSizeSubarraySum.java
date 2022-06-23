@@ -20,17 +20,20 @@ public class MinimumSizeSubarraySum {
         int start = 0;
         int end = 0;
         int sum = 0;
-        int min = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
 
         while (end < nums.length) {
-            sum = sum + nums[end++];
-
-            while (sum > target) {
+            // or sum = sum + nums[end++];
+            // it is the same as the code below
+            sum = sum + nums[end];
+            end++;
+            while (sum >= target) {
+                sum = sum - nums[start];
                 min = Math.min(min, end - start);
-                sum = sum - nums[start++];
+                start++;
             }
         }
 
-        return min;
+        return min == Integer.MAX_VALUE ? 0 : min;
     }
 }

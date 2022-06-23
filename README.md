@@ -2,7 +2,7 @@
 
 ### 739. Daily Temperatures
 
-Traversing array from the left using Stack.
+Traversing array from the left using a Stack.
 
 ### 75. Sort Colors \*
 

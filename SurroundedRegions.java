@@ -29,7 +29,7 @@ public class SurroundedRegions {
             }
         }
 
-        for (int j = 1; j < n - 1; j++) {
+        for (int j = 0; j < n; j++) {
             if (board[0][j] == 'O') {
                 dfs(board, 0, j);
             }
